@@ -1,6 +1,5 @@
 "use strict";
-const myfunction = (a, b) => {
-    return a + b;
+const signContract = (employee) => {
+    console.log('contract signed by ' + employee.name + ' with email: ' + employee.email);
 };
-console.log(myfunction('yahya', 'akli'));
-console.log(myfunction('5', "10"));
+signContract({ name: 'yahya', creditStore: 20, id: 1, email: 'yahya@gmail.com' });
