@@ -5,7 +5,6 @@ import { catchError } from 'rxjs';
 import { TodoItemComponent } from '../components/todo-item/todo-item.component';
 import { FormsModule } from '@angular/forms';
 import { FilterTodosPipe } from '../pipes/filter-todos.pipe';
-import { UpperCasePipe } from '@angular/common';
 
 @Component({
   selector: 'app-todos',
